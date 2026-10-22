@@ -1,0 +1,38 @@
+package Variables;
+
+public class Demo2
+
+    {
+        //1: example of local & global variable
+
+        int num3=30;     //global variable
+
+        public void m1()
+        {
+            int num1=10;             //local variable
+            System.out.println(num1);    //calling local variable
+            System.out.println(num3);    //calling global variable
+        }
+
+        public void m2()
+        {
+            int num2=20;             //local variable
+            System.out.println(num2);        //call local variable
+//        System.out.println(num1);
+            System.out.println(num3);        //call global variable
+        }
+
+
+        public void add(int num1, int num2)    //local variable
+        {
+
+        }
+
+        public static void main(String[] args)
+        {
+            Demo2 d2=new Demo2();
+            d2.m1();
+            d2.m2();
+        }
+    }
+
