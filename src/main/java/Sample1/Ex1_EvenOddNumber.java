@@ -1,6 +1,6 @@
 package Sample1;
 
-public class EvenOddNumber
+public class Ex1_EvenOddNumber
     {
         public static void main(String []args)
         {
